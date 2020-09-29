@@ -4,8 +4,6 @@ RUN apk add --no-cache \
 	bash \
 	tinyproxy
 
-RUN cat > config.cnf <<EOF\
-ViaProxyName "server-hostname"\
-EOF
+COPY config.cnf config.cnf
 
 CMD tinyproxy -c config.cnf
