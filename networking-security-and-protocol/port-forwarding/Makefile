@@ -6,4 +6,4 @@ down:
 	docker-compose down
 
 test:
-	curl -x https://127.0.0.1:8888 https://ifconfig.co
+	curl https://ifconfig.co --proxy 0.0.0.0:8888
