@@ -4,6 +4,8 @@ services:
   tinyproxy:
     build:
       context: .
+      dockerfile: Dockerfile
+    image: tinyproxy
     ports:
       - "8888:8888"
     restart: always

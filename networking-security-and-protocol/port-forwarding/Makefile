@@ -1,4 +1,5 @@
 up:
+	make down
 	docker-compose up --force-recreate
 
 down:
