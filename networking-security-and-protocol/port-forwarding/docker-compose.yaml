@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  tinyproxy:
+    build:
+      context: .
+    ports:
+      - "8888:8888"
+    restart: always
