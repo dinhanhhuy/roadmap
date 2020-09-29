@@ -4,4 +4,4 @@ RUN apk add --no-cache \
 	bash \
 	tinyproxy
 
-CMD tinyproxy -d
+CMD tinyproxy
